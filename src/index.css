@@ -11,6 +11,7 @@
     margin: 0rem;
     padding: 0rem;
     font-family: "Space Grotesk", sans-serif;
+    @apply bg-primary-black
   }
 
   h1,
