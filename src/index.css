@@ -1,3 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html,
+  body,
+  main {
+    height: 100%;
+    width: 100%;
+    margin: 0rem;
+    padding: 0rem;
+    font-family: "Space Grotesk", sans-serif;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-weight: bold;
+  }
+
+  h1 {
+    @apply text-h1;
+    @apply tracking-h1;
+  }
+  h2 {
+    @apply text-h2;
+    @apply tracking-h2;
+  }
+  h3 {
+    @apply text-h3;
+  }
+  p {
+    @apply text-p;
+    font-weight: 500;
+  }
+}
