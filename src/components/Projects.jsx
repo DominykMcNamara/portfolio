@@ -8,7 +8,7 @@ export const Projects = () => {
     <div className="w-[21.563rem] mt-[7rem] mx-auto">
       <div className="flex flex-row justify-between mb-[1rem]">
         <h3 className="text-primary-white text-[2.5rem]">Projects</h3>
-        <a href="#">
+        <a href="#contact">
           <p className="text-primary-white underline font-bold tracking-[0.143rem]">
             Contact Me
           </p>
