@@ -1,5 +1,5 @@
 import React from "react";
-import { Experience } from "./components/Experience";
+import { Skills } from "./components/Skills";
 import { Header } from "./components/Header";
 
 export const App = () => {
@@ -10,8 +10,8 @@ export const App = () => {
           <Header />
         </>
       </div>
-      <section id="experience">
-        <Experience />
+      <section id="skills">
+        <Skills />
       </section>
     </>
   );

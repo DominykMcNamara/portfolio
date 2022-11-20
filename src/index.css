@@ -47,4 +47,10 @@
     text-decoration: underline;
     @apply decoration-primary-neonGreen;
   }
+
+  .logo {
+    margin: 1rem 1rem; 
+    height: 3rem;
+    width: 3rem;
+  }
 }
