@@ -11,7 +11,7 @@
     margin: 0rem;
     padding: 0rem;
     font-family: "Space Grotesk", sans-serif;
-    @apply bg-primary-black
+    @apply bg-primary-black;
   }
 
   h1,
@@ -36,7 +36,15 @@
     font-weight: 500;
   }
 
-  a, button {
+  a,
+  button {
     cursor: pointer;
+  }
+}
+
+@layer components {
+  .underline {
+    text-decoration: underline;
+    @apply decoration-primary-neonGreen;
   }
 }

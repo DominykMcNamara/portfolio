@@ -1,11 +1,18 @@
-import React from 'react'
-import { Header } from './components/Header'
+import React from "react";
+import { Experience } from "./components/Experience";
+import { Header } from "./components/Header";
 
 export const App = () => {
   return (
-   <header>
-    <Header />
-   </header>
-  )
-}
-
+    <>
+      <div id="hero">
+        <>
+          <Header />
+        </>
+      </div>
+      <section id="experience">
+        <Experience />
+      </section>
+    </>
+  );
+};

@@ -6,6 +6,7 @@ import { ReactComponent as LinkedinIcon } from "../assets/icon-linkedin.svg";
 import { ReactComponent as TwitterIcon } from "../assets/icon-twitter.svg";
 import { ReactComponent as Rings } from "../assets/pattern-rings.svg";
 import { ReactComponent as Circle } from "../assets/pattern-circle.svg";
+import { Bio } from "./Bio";
 
 export const Header = () => {
   return (
@@ -49,6 +50,9 @@ export const Header = () => {
           <Circle />
           </div>
         </div>
+      </div>
+      <div className="w-[21.438rem] h-[15.25rem] mt-[6rem] mx-auto">
+      <Bio />
       </div>
     </>
   );
