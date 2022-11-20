@@ -16,7 +16,7 @@ import nextIcon from "../assets/next-js.svg";
 export const Skills = () => {
   return (
     <div className="w-[21.563rem] mt-[7rem] mx-auto border-t-[0.1rem] px-2 border-b-[0.1rem] border-primary-white py-[2.5rem]">
-      <h3 className="text-primary-white">Skills</h3>
+      <h2 className="text-primary-white">Skills</h2>
       <div className="flex flex-row flex-wrap justify-between">
        <img src={tailwindIcon} className="logo" alt="TailwindCSS logo" />
        <img src={sassIcon} className="logo" alt="SASS logo"/>
