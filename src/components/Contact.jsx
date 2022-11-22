@@ -6,7 +6,7 @@ export const Contact = () => {
       <h3 className="text-primary-white ">Contact</h3>
       <p className="text-primary-gray mb-[1rem] md:mx-[3rem]">
         I would love to hear about your project and how I could help you. Please
-        fill in the form, and I'll get back to you as soon as possible.
+        send me a message, and I'll get back to you as soon as possible.
       </p>
 
       <a
