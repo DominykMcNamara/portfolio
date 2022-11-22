@@ -7,9 +7,9 @@ import { ReactComponent as TwitterIcon } from "../assets/icon-twitter.svg";
 
 export const Footer = () => {
   return (
-   <div className="bg-primary-lightBlack w-full mx-auto text-center pt-[3rem] pb-[5rem]">
-        <h3 className="text-primary-white">Dominyk Smith</h3>
-        <div className="flex flex-row justify-around w-60 mx-auto mt-[1rem]">
+   <div className="bg-primary-lightBlack w-screen mx-auto text-center pt-[3rem] pb-[5rem] sm:flex sm:flex-row ">
+        <h3 className="text-primary-white sm:ml-[2rem] md:ml-[7rem]">Dominyk Smith</h3>
+        <div className="flex flex-row justify-around w-60 mx-auto mt-[1rem] sm:mt-0 lg:mr-[3rem] xl:mr-[5rem]">
         <a href="https://github.com/DominykMcNamara" target="#">
               <GithubIcon />{" "}
             </a>

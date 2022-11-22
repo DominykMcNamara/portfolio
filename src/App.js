@@ -8,23 +8,24 @@ import { Footer } from "./components/Footer";
 export const App = () => {
   return (
     <>
-      <div id="hero">
-        <>
+      <div id="hero" >
+      
           <Header />
-        </>
-      </div>
+        </div>
+    
       <section id="skills">
         <Skills />
       </section>
       <section id="projects">
         <Projects />
       </section>
-      <section id="contact">
+      <section id="contact" className="mt-[25rem]">
         <Contact />
       </section>
       <footer id="footer">
         <Footer />
       </footer>
+  
     </>
   );
 };

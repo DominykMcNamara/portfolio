@@ -1,25 +1,37 @@
 import React from "react";
+import { ReactComponent as Rings } from "../assets/pattern-rings.svg";
 import quoteApp from "../assets/Screenshot (12).png";
 import githubApp from "../assets/Screenshot (14).png";
 import authTodoApp from "../assets/Screenshot (15).png";
 import pernTodoApp from "../assets/Screenshot (16).png";
 export const Projects = () => {
   return (
-    <div className="w-[21.563rem] mt-[7rem] mx-auto">
-      <div className="flex flex-row justify-between mb-[1rem]">
-        <h3 className="text-primary-white text-[2.5rem]">Projects</h3>
+    <div className="w-[44.25rem] mt-[7rem] mx-auto ml-[2rem]
+                    sm:w-[38rem]
+                    md:ml-[7rem]
+                    lg:w-[68.375rem] lg:mx-[2rem]
+                    xl:relative xl:top-[20rem] xl:w-[140rem] xl:mx-auto">
+      <div className="absolute -bottom-[26rem] left-[9rem] xl:bottom-[50rem] xl:left-[100rem]">
+      <Rings />
+      </div>
+      <div className="flex flex-row justify-between mb-[1rem] ">
+        <h3 className="text-primary-white text-[2.5rem] xl:ml-[2rem]">Projects</h3>
         <a href="#contact">
-          <p className="text-primary-white underline font-bold tracking-[0.143rem]">
+          <p className="text-primary-white underline hover:font-bold tracking-[0.143rem]
+                        xl:mr-[2rem]">
             Contact Me
           </p>
         </a>
       </div>
-      <div className="flex flex-col">
-        <div className="my-[2rem]">
+      <div className="flex flex-col 
+                      sm:flex-row sm:flex-wrap sm:justify-around ">
+        <div className="my-[2rem] w-[21.438rem]
+                        sm:w-[15.563rem]
+                        lg:w-[25.75rem]">
           <img
             src={quoteApp}
             alt="Screenshot of a random quote generator web app"
-            className="rounded-[0.375rem]"
+            className="rounded-[0.375rem] opacity-80 hover:opacity-100 transition-all transition-0.25"
           />
           <h3 className="text-primary-white my-[1rem]">
             Random Quote Generator
@@ -31,7 +43,7 @@ export const Projects = () => {
           </ul>
           <div className="flex flex-row justify-between  my-[1rem]">
             <a href="https://peaceful-brioche-05022d.netlify.app/" target="#">
-              <p className="text-primary-white underline font-bold tracking-[0.143rem]">
+              <p className="text-primary-white underline hover:font-bold tracking-[0.143rem]">
                 View Project
               </p>{" "}
             </a>
@@ -47,11 +59,13 @@ export const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="my-[2rem]">
+        <div className="my-[2rem] w-[21.438rem]
+                        sm:w-[15.563rem]
+                        lg:w-[25.75rem]">
           <img
             src={authTodoApp}
             alt="Screenshot of a todo  web app"
-            className="rounded-[0.375rem]"
+            className="rounded-[0.375rem] opacity-80 hover:opacity-100 transition-all transition-0.25"
           />
           <h3 className="text-primary-white my-[1rem]">
             Full stack Todo app with user authentication
@@ -63,23 +77,25 @@ export const Projects = () => {
           </ul>
           <div className="flex flex-row justify-between  my-[1rem]">
             <a href="https://todo-omega-lovat.vercel.app/" target="#">
-              <p className="text-primary-white underline font-bold tracking-[0.143rem]">
+              <p className="text-primary-white underline hover:font-bold tracking-[0.143rem]">
                 View Project
               </p>{" "}
             </a>
             <a href="https://github.com/DominykMcNamara/todo" target="#">
               {" "}
-              <p className="text-primary-white underline font-bold tracking-[0.143rem]">
+              <p className="text-primary-white underline hover:font-bold tracking-[0.143rem]">
                 {" "}
                 View Code
               </p>{" "}
             </a>
           </div>
         </div>
-        <div className="my-[2rem]">
+        <div className="my-[2rem] w-[21.438rem]
+                        sm:w-[15.563rem]
+                        lg:w-[25.75rem]">
           <img
             src={githubApp}
-            className="rounded-[0.375rem]"
+            className="rounded-[0.375rem] opacity-80 hover:opacity-100 transition-all transition-0.25"
             alt="Screenshot of a github user search web app"
           />
           <h3 className="text-primary-white my-[1rem]">
@@ -92,7 +108,7 @@ export const Projects = () => {
           </ul>
           <div className="flex flex-row justify-between  my-[1rem]">
             <a href="https://searchappp.herokuapp.com/" target="#">
-              <p className="text-primary-white underline font-bold tracking-[0.143rem]">
+              <p className="text-primary-white underline hover:font-bold tracking-[0.143rem]">
                 View Project
               </p>{" "}
             </a>
@@ -101,18 +117,20 @@ export const Projects = () => {
               target="#"
             >
               {" "}
-              <p className="text-primary-white underline font-bold tracking-[0.143rem]">
+              <p className="text-primary-white underline hover:font-bold tracking-[0.143rem] opacity-80 hover:opacity-100 transition-all transition-0.25">
                 {" "}
                 View Code
               </p>{" "}
             </a>
           </div>
         </div>
-        <div className="my-[2rem]">
+        <div className="my-[2rem] w-[21.438rem]
+                        sm:w-[15.563rem]
+                        lg:w-[25.75rem]">
           <img
             src={pernTodoApp}
             alt="Screenshot of a todo  web app"
-            className="rounded-[0.375rem]"
+            className="rounded-[0.375rem] opacity-80 hover:opacity-100 transition-all transition-0.25"
           />
           <h3 className="text-primary-white my-[1rem]">PERN stack Todo app</h3>
           <ul className="flex flex-row text-primary-gray justify-between  my-[1rem]">
@@ -123,7 +141,7 @@ export const Projects = () => {
           </ul>
           <div className="flex flex-row justify-between  my-[1rem]">
             <a href="https://toasty-brioche.herokuapp.com/" target="#">
-              <p className="text-primary-white underline font-bold tracking-[0.143rem]">
+              <p className="text-primary-white underline hover:font-bold tracking-[0.143rem]">
                 View Project
               </p>{" "}
             </a>
@@ -132,7 +150,7 @@ export const Projects = () => {
               target="#"
             >
               {" "}
-              <p className="text-primary-white underline font-bold tracking-[0.143rem]">
+              <p className="text-primary-white underline hover:font-bold tracking-[0.143rem]">
                 {" "}
                 View Code
               </p>{" "}

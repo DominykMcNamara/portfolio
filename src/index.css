@@ -39,6 +39,7 @@
   a,
   button {
     cursor: pointer;
+    z-index: 50
   }
 }
 
