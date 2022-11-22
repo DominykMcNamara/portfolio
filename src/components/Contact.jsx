@@ -1,6 +1,5 @@
 import React from "react";
 import { ReactComponent as Rings } from "../assets/pattern-rings.svg";
-import emailjs from "@emailjs/browser";
 export const Contact = () => {
   return (
     <div className="w-full mt-[5rem] border-b-[0.01rem] border-primary-white bg-primary-lightBlack text-center py-[3.75rem] ">
