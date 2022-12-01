@@ -2,7 +2,7 @@ import React from "react";
 import { ReactComponent as Rings } from "../assets/pattern-rings.svg";
 export const Contact = () => {
   return (
-    <div className="w-full mt-[5rem] border-b-[0.01rem] border-primary-white bg-primary-lightBlack text-center py-[3.75rem] ">
+    <div className="mt-[5rem] mx-auto w-screen border-b-[0.01rem] border-primary-white bg-primary-lightBlack text-center py-[3.75rem] ">
       <h3 className="text-primary-white ">Contact</h3>
       <p className="text-primary-gray mb-[1rem] md:mx-[3rem]">
         I would love to hear about your project and how I could help you. Please

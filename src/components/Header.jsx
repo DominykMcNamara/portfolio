@@ -13,15 +13,15 @@ export const Header = () => {
   return (
     <>
       <div className="w-[10.875rem] h-[23.938rem] mx-auto pt-[1.5rem]
-                      sm:mx-0
+                     sm:mx-0
                       
                       ">
-        <div className="text-primary-white text-center w-[9.563rem] h-[4.5rem]
+        <div className="text-primary-white text-center w-[9.563rem] h-[4.5rem] px-0
                         sm:w-[44.25rem] sm:justify-between sm:align-center sm:flex sm:flex-row sm:px-[2rem]
                         xl:w-screen
                         ">
-          <h3 className="xl:ml-[10.313rem]">Dominyk Smith</h3>
-          <div className="flex justify-between flex-row
+          <h3 className="ml-0 xl:ml-[10.313rem]">Dominyk Smith</h3>
+          <div className="mr-0 flex justify-between flex-row
                           sm:w-[9.813rem] sm:mr-[2.5rem]
                           xl:mr-[10.313rem]">
             <a href="https://github.com/DominykMcNamara" target="#">

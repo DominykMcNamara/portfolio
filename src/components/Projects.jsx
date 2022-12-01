@@ -6,7 +6,7 @@ import authTodoApp from "../assets/Screenshot (15).png";
 import pernTodoApp from "../assets/Screenshot (16).png";
 export const Projects = () => {
   return (
-    <div className="w-[44.25rem] mt-[7rem] mx-auto ml-[2rem]
+    <div className="mt-[7rem] mx-auto ml-[2rem]
                     sm:w-[38rem]
                     md:ml-[7rem]
                     lg:w-[68.375rem] lg:mx-[2rem]
@@ -17,8 +17,8 @@ export const Projects = () => {
       <div className="flex flex-row justify-between mb-[1rem] ">
         <h3 className="text-primary-white text-[2.5rem] xl:ml-[2rem]">Projects</h3>
         <a href="#contact">
-          <p className="text-primary-white underline hover:font-bold tracking-[0.143rem]
-                        xl:mr-[2rem]">
+          <p className="text-primary-white  underline hover:font-bold tracking-[0.143rem]
+                        ">
             Contact Me
           </p>
         </a>

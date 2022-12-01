@@ -2,16 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+@-ms-viewport{
+  width: device-width;
+}
+
 @layer base {
   html,
   body,
   main {
-    height: 100%;
-    max-width: 100%;
     margin: 0rem;
     padding: 0rem;
     font-family: "Space Grotesk", sans-serif;
     @apply bg-primary-black;
+  }
+
+  html {
+    height: 100vh;
+    width: 100vw;
+    scroll-behavior: smooth;
+   
   }
 
   h1,

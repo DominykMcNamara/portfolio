@@ -7,7 +7,7 @@ import { Footer } from "./components/Footer";
 
 export const App = () => {
   return (
-    <>
+    <div>
       <div id="hero" >
       
           <Header />
@@ -26,6 +26,6 @@ export const App = () => {
         <Footer />
       </footer>
   
-    </>
+    </div>
   );
 };
