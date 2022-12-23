@@ -136,7 +136,7 @@ export const Projects = () => {
           <ul className="flex flex-row text-primary-gray justify-between  my-[1rem]">
             <li>PostgreSQL</li>
             <li>React</li>
-            <li>Reddit JSON API</li>
+            <li>RTK Query</li>
             <li>Bootstrap</li>
           </ul>
           <div className="flex flex-row justify-between  my-[1rem]">
