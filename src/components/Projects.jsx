@@ -3,7 +3,7 @@ import { ReactComponent as Rings } from "../assets/pattern-rings.svg";
 import quoteApp from "../assets/Screenshot (12).png";
 import githubApp from "../assets/Screenshot (14).png";
 import authTodoApp from "../assets/Screenshot (15).png";
-import pernTodoApp from "../assets/Screenshot (16).png";
+import redditClient from "../assets/Screenshot (19).png";
 export const Projects = () => {
   return (
     <div className="mt-[7rem] mx-auto ml-[2rem]
@@ -128,25 +128,25 @@ export const Projects = () => {
                         sm:w-[15.563rem]
                         lg:w-[25.75rem]">
           <img
-            src={pernTodoApp}
-            alt="Screenshot of a todo  web app"
+            src={redditClient}
+            alt="Screenshot of a Reddit client  web app"
             className="rounded-[0.375rem] opacity-80 hover:opacity-100 transition-all transition-0.25"
           />
-          <h3 className="text-primary-white my-[1rem]">PERN stack Todo app</h3>
+          <h3 className="text-primary-white my-[1rem]">Reddit Client</h3>
           <ul className="flex flex-row text-primary-gray justify-between  my-[1rem]">
             <li>PostgreSQL</li>
             <li>React</li>
-            <li>Express</li>
-            <li>Node.JS</li>
+            <li>Reddit JSON API</li>
+            <li>Bootstrap</li>
           </ul>
           <div className="flex flex-row justify-between  my-[1rem]">
-            <a href="https://toasty-brioche.herokuapp.com/" target="#">
+            <a href="https://fluffy-sunshine-f7948a.netlify.app/" target="#">
               <p className="text-primary-white underline hover:font-bold tracking-[0.143rem]">
                 View Project
               </p>{" "}
             </a>
             <a
-              href="https://github.com/DominykMcNamara/todo-app-full"
+              href="https://github.com/DominykMcNamara/reddit-app2"
               target="#"
             >
               {" "}
