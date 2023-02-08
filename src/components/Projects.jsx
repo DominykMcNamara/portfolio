@@ -1,7 +1,7 @@
 import React from "react";
 import { ReactComponent as Rings } from "../assets/pattern-rings.svg";
 import quoteApp from "../assets/Screenshot (12).png";
-import githubApp from "../assets/Screenshot (14).png";
+import eCommerceApp from "../assets/DominykMcNamara_eCommerce.png"
 import authTodoApp from "../assets/Screenshot (15).png";
 import redditClient from "../assets/Screenshot (19).png";
 export const Projects = () => {
@@ -94,26 +94,26 @@ export const Projects = () => {
                         sm:w-[15.563rem]
                         lg:w-[25.75rem]">
           <img
-            src={githubApp}
+            src={eCommerceApp}
             className="rounded-[0.375rem] opacity-80 hover:opacity-100 transition-all transition-0.25"
-            alt="Screenshot of a github user search web app"
+            alt="Screenshot of a eCommerce backend repo"
           />
           <h3 className="text-primary-white my-[1rem]">
-            Github User Search App
+            eCommerce Backend
           </h3>
           <ul className="flex flex-row text-primary-gray justify-between  my-[1rem]">
-            <li>React</li>
-            <li>Material UI</li>
-            <li>Github API</li>
+            <li>Node</li>
+            <li>Express</li>
+            <li>Postgresql</li>
           </ul>
           <div className="flex flex-row justify-between  my-[1rem]">
-            <a href="https://searchappp.herokuapp.com/" target="#">
+            <a href="https://github.com/DominykMcNamara/eCommerce" target="#">
               <p className="text-primary-white underline hover:font-bold tracking-[0.143rem]">
                 View Project
               </p>{" "}
             </a>
             <a
-              href="https://github.com/DominykMcNamara/github-user-search-app"
+              href="https://github.com/DominykMcNamara/eCommerce"
               target="#"
             >
               {" "}
