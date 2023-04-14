@@ -68,7 +68,7 @@ export const Projects = () => {
             className="rounded-[0.375rem] opacity-80 hover:opacity-100 transition-all transition-0.25"
           />
           <h3 className="text-primary-white my-[1rem]">
-            Full stack Todo app with user authentication
+            Todo app with user authentication
           </h3>
           <ul className="flex flex-row text-primary-gray justify-between  my-[1rem]">
             <li>Next.JS</li>
@@ -95,7 +95,7 @@ export const Projects = () => {
                         lg:w-[25.75rem]">
           <img
             src={eCommerceApp}
-            className="rounded-[0.375rem] opacity-80 hover:opacity-100 transition-all transition-0.25"
+            className="rounded-[0.375rem] opacity-80 hover:opacity-100  transition-all transition-0.25"
             alt="Screenshot of a eCommerce backend repo"
           />
           <h3 className="text-primary-white my-[1rem]">
@@ -134,7 +134,6 @@ export const Projects = () => {
           />
           <h3 className="text-primary-white my-[1rem]">Reddit Client</h3>
           <ul className="flex flex-row text-primary-gray justify-between  my-[1rem]">
-            <li>PostgreSQL</li>
             <li>React</li>
             <li>RTK Query</li>
             <li>Bootstrap</li>
