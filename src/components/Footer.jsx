@@ -30,7 +30,7 @@ export const Footer = () => {
             <a href="https://twitter.com/DominykMcNamara" target="#">
               <TwitterIcon />{" "}
             </a>
-
+          <h3 className="text-primary-white sm:ml-[2rem] md:ml-[7rem]">&copy; 2023 All Rights Reserved</h3>
         </div>
    </div>
   )
